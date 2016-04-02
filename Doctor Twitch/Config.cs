@@ -395,7 +395,7 @@ namespace Twitch
                 _potionMinHP = MenuMisc.Add("potionminHP", new Slider("Minimum Health % to use potion", 70));
                 _potionMinMP = MenuMisc.Add("potionMinMP", new Slider("Minimum Mana % to use potion", 20));
                 MenuMisc.AddGroupLabel("Other");
-                _stealthRecall = MenuMisc.Add("stealthRecall", new CheckBox("Use Stealth when recalling"));
+                _stealthRecall = MenuMisc.Add("stealthRecall", new CheckBox("Use Stealth when recalling", false));
                 MenuMisc.AddGroupLabel("Dagame");
                 _showHPBar = MenuMisc.Add("showHPBar", new CheckBox("Show HPbar"));
                 _showStats = MenuMisc.Add("showStats", new CheckBox("Show Stats", false));
