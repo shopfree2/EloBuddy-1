@@ -122,7 +122,6 @@ namespace Twitch
                     spell =>
                         (spell.Slot == SpellSlot.Q && Config.MiscMenu.CalculateQ) ||
                           (spell.Slot == SpellSlot.W && Config.MiscMenu.CalculateW) ||
-                           (spell.Slot == SpellSlot.E && Config.MiscMenu.CalculateE) ||
                             (spell.Slot == SpellSlot.R && Config.MiscMenu.CalculateR));
 
             var damage = spells.Where(spe => spe.IsReady).Sum(s => Player.Instance.GetSpellDamage(target, s.Slot));
