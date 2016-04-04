@@ -210,7 +210,7 @@ namespace DrVayne.Common
         {
             Loading.OnLoadingComplete += args =>
             {
-                config = MainMenu.AddMenu("Target Selector2", "TargetSelector2");
+                config = MainMenu.AddMenu("Target Forced W", "TargetSelector2");
 
                 _configMenu = config;
 

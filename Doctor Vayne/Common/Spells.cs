@@ -145,7 +145,7 @@ namespace DrVayne.Common
         {
             Loading.OnLoadingComplete += eventArgs =>
             {
-                _menu = MainMenu.AddMenu("CastFunction", "CastFunction");
+                _menu = MainMenu.AddMenu("Cast", "CastFunction");
                 _menu.AddGroupLabel("Limit Casting Attempt");
                 _menu.Add("LimitCastingAttempts", new CheckBox("Limit Casting Attempts", true));
             };
