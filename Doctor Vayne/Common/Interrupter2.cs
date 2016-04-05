@@ -57,7 +57,14 @@ namespace DrVayne.Common
             RegisterSpell("Caitlyn", new InterruptableSpell(SpellSlot.R, DangerLevel.High));
             RegisterSpell("FiddleSticks", new InterruptableSpell(SpellSlot.W, DangerLevel.Medium));
             RegisterSpell("FiddleSticks", new InterruptableSpell(SpellSlot.R, DangerLevel.High));
-            RegisterSpell("Galio", new InterruptableSpell(SpellSlot.R, DangerLevel.High));
+            RegisterSpell("Kha'Zix", new InterruptableSpell(SpellSlot.E, DangerLevel.High));
+            RegisterSpell("Rengar", new InterruptableSpell(SpellSlot.Q, DangerLevel.High));
+            RegisterSpell("Rengar", new InterruptableSpell(SpellSlot.E, DangerLevel.High));
+            RegisterSpell("Rengar", new InterruptableSpell(SpellSlot.R, DangerLevel.High));
+            RegisterSpell("Jax", new InterruptableSpell(SpellSlot.Q, DangerLevel.High));
+            RegisterSpell("Alista", new InterruptableSpell(SpellSlot.W, DangerLevel.High));
+            RegisterSpell("Xinzhao", new InterruptableSpell(SpellSlot.E, DangerLevel.High));
+            RegisterSpell("Shyvana", new InterruptableSpell(SpellSlot.R, DangerLevel.High));			
             RegisterSpell("Janna", new InterruptableSpell(SpellSlot.R, DangerLevel.Low));
             RegisterSpell("Karthus", new InterruptableSpell(SpellSlot.R, DangerLevel.High));
             RegisterSpell("Katarina", new InterruptableSpell(SpellSlot.R, DangerLevel.High));
@@ -71,8 +78,8 @@ namespace DrVayne.Common
             RegisterSpell("RekSai", new InterruptableSpell(SpellSlot.R, DangerLevel.High));
             RegisterSpell("Sion", new InterruptableSpell(SpellSlot.R, DangerLevel.Low));
             RegisterSpell("Shen", new InterruptableSpell(SpellSlot.R, DangerLevel.Low));
+            RegisterSpell("Shen", new InterruptableSpell(SpellSlot.E, DangerLevel.High));
             RegisterSpell("TwistedFate", new InterruptableSpell(SpellSlot.R, DangerLevel.Medium));
-            RegisterSpell("Urgot", new InterruptableSpell(SpellSlot.R, DangerLevel.High));
             RegisterSpell("Velkoz", new InterruptableSpell(SpellSlot.R, DangerLevel.High));
             RegisterSpell("Warwick", new InterruptableSpell(SpellSlot.R, DangerLevel.High));
             RegisterSpell("Xerath", new InterruptableSpell(SpellSlot.R, DangerLevel.High));

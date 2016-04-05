@@ -89,7 +89,7 @@ namespace DrVayne
             SubMenu["Combo"].AddSeparator(10);
             SubMenu["Combo"].Add("E", new CheckBox("Use E", true));
             SubMenu["Combo"].Add("ELast", new CheckBox("Use E Secure Kill", false));
-            SubMenu["Combo"].Add("PushDistance", new Slider("E Push Distance", 390, 300, 475));
+            SubMenu["Combo"].Add("PushDistance", new Slider("E Push Distance", 310, 300, 380));
             SubMenu["Combo"].Add("R", new CheckBox("Use R", true));
             SubMenu["Combo"].Add("R2", new Slider("Enemy In Range", 2, 0, 5));
             SubMenu["Combo"].Add("noaastealth", new CheckBox("No AA while stealth", true));

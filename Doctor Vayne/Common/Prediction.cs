@@ -196,7 +196,7 @@ namespace DrVayne.Common
         {
             Loading.OnLoadingComplete += eventArgs =>
             {
-                _menu = MainMenu.AddMenu("PreCombo", "Prediction2");
+                _menu = MainMenu.AddMenu("Pred Range", "Prediction2");
                 _menu.Add("PredMaxRange", new Slider("Max Range %", 100, 70, 100));
             };
         }

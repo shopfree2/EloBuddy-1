@@ -34,8 +34,8 @@ namespace DrVayne
         {
             return
                 EntityManager.Heroes.Enemies.Any(
-                    e => e.IsValidTarget(600) && e.IsVisible &&
-                        e.Distance(pos) < 375) ||
+                    e => e.IsValidTarget(550) && e.IsVisible &&
+                        e.Distance(pos) < 325) ||
                 Program.EnemyTraps.Any(t => pos.Distance6(t.Position) < 125);
         }
 
