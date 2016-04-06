@@ -674,7 +674,7 @@ namespace DrVayne
         {
             if (!E.IsReady()) return;
             if (orbwalker.ActiveMode == Orbwalking.OrbwalkingMode.Combo && SubMenu["Combo"]["E"].Cast<CheckBox>().CurrentValue)
-                foreach (var hero in from hero in ObjectManager.Get<AIHeroClient>().Where(hero => hero.IsValidTarget(550f))
+                foreach (var hero in from hero in ObjectManager.Get<AIHeroClient>().Where(hero => hero.IsValidTarget(380f))
                                      let prediction = E.GetPrediction(hero)
                                      where NavMesh.GetCollisionFlags(
                                          prediction.UnitPosition.To2D2()
